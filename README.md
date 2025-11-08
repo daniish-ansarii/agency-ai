@@ -73,7 +73,67 @@ It integrates **scroll animations**, **dark/light theme support**, and a **worki
 
 ## ⚙️ Installation & Setup
 
-1️⃣ **Clone the Repository**
-```bash
+1️⃣ **Clone the Repository** 
 git clone https://github.com/daniish-ansarii/agency.ai.git
 cd agency.ai
+
+2️⃣ Install Dependencies 
+
+npm install
+
+3️⃣ Start the Development Server
+
+npm run dev
+
+4️⃣ Build for Production
+
+npm run build
+
+
+🌗 Theme System
+
+The project detects your OS theme automatically.
+You can toggle between Dark and Light mode manually via the top-right button.
+Theme preferences persist across sessions using LocalStorage.
+
+📬 Contact Form Integration
+
+The ContactUs component uses Web3Forms for backend-free form handling.
+It securely sends form data using an access_key and displays a success/error toast message.
+
+🧑‍💻 Folder Structure
+
+agency.ai/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── TrustedBy.jsx
+│   │   ├── Services.jsx
+│   │   ├── OurWork.jsx
+│   │   ├── Teams.jsx
+│   │   ├── ContactUs.jsx
+│   │   ├── Footer.jsx
+│   │   └── Title.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+└── package.json
+
+🎨 Design Highlights
+
+Gradient-based color scheme (--color-primary: #5044E5)
+Smooth shadows and rounded corners
+Minimal layout with ample white space
+Beautiful Manrope typography
+Custom animations using Framer Motion
+
+🚀 Live Demo
+You can deploy this project easily on:
+Vercel : https://agency-ai-2que.vercel.app
+
+👨‍💻 Author
+MD Danish
+Mernstack Developer | React Enthusiast
